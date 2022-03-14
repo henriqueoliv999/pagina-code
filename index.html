@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code - Home</title>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="icon" href="./Imagens/logo.png" type="image/png">
+    <style>
+        @media screen and (max-width: 800px) {
+            header{
+                position: relative;
+                padding: 35px;
+                width: 60%;
+                float: left;
+                text-align: left;
+            }
+            header .logo{
+                width: 0;
+            }
+            .modalDialog div{
+                
+                width:40%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-principal">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./Imagens/logo.png" alt="logo home">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#topo">Home</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="banner">
+            <img src="./Imagens/banner.jpg" alt="banner">
+        </section>
+        <div id="openmodal" class="modalDialog">
+            <div>
+                <a href="#close" class="close"> X </a>
+                <h1>TUDO SOBRE HTML</h1>
+                <p>HTML abreviação para a expressão inglesa HyperText Markup Language, que significa: "Linguagem de
+                    Marcação de Hipertexto" é uma linguagem de marcação utilizada na construção de páginas na Web.
+                    Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os
+                    padrões HyTime e SGML. </p>
+                <img src="./Imagens/html5.png" alt="logo html">
+            </div>
+        </div>
+        <div id="openmodal2" class="modalDialog">
+            <div>
+                <a href="#close" class="close"> X </a>
+                <h1>TUDO SOBRE CSS</h1>
+                <p>Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web. O código CSS pode ser
+                    aplicado diretamente nas tags ou ficar contido dentro das tags <em>style</em>. Também é possível, em
+                    vez de colocar a formatação dentro do documento, criar um link para um arquivo CSS que contém os
+                    estilos.</p>
+                <img src="./Imagens/css.png" alt="logo css">
+            </div>
+        </div>
+        <div id="openmodal3" class="modalDialog">
+            <div>
+                <a href="#close" class="close"> X </a>
+                <h1>TUDO SOBRE JAVASCRIPT</h1>
+                <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com
+                    tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três
+                    principais tecnologias da World Wide Web.</p>
+                <img src="./Imagens/js.png" alt="logo js">
+            </div>
+        </div>
+        <footer>
+            <div class="footer-text">
+                <h3>Tudo sobre HTML</h3>
+                <p>Saiba o que é HTML, e como sua empresa pode usufruir de sites mais dinâmicos sempre atualizados -
+                    <a href="#openmodal">clique aqui</a>.
+                </p>
+            </div>
+            <div class="footer-text">
+                <h3>Tudo sobre CSS</h3>
+                <p>Saiba o que é CSS, e como sua empresa pode usufruir de sites mais estilosos e personalizados -
+                    <a href="#openmodal2">clique aqui</a>.
+                </p>
+            </div>
+            <div class="footer-text">
+                <h3>Tudo sobre JavaScript</h3>
+                <p>Saiba o que é JavaScript, e como sua empresa pode usufruir de sites mais funcionais -
+                    <a href="#openmodal3">clique aqui</a>.
+                </p>
+            </div>
+        </footer>
+        <div id="pe">
+
+            <img id="imgpe" src="./Imagens/logofooter.png" alt="">
+            <p id="assin"><a id="assi" href=""><em>by Henrique de Oliveira</em></a></p>
+
+        </div>
+    </div>
+</body>
+
+</html>
